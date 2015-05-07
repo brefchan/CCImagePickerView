@@ -1,0 +1,13 @@
+PODS:
+  - JT3DScrollView (1.0.2)
+  - pop (1.0.7)
+
+DEPENDENCIES:
+  - JT3DScrollView (~> 1.0.2)
+  - pop (~> 1.0.7)
+
+SPEC CHECKSUMS:
+  JT3DScrollView: 863773b53a2fd9b6599835ea4202843ad60535fd
+  pop: 628ffc631644601567ee8bfaaaea493ebd7d0923
+
+COCOAPODS: 0.35.0
