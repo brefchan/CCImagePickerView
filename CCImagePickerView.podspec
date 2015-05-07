@@ -2,13 +2,13 @@
 Pod::Spec.new do |s|
 
   s.name         = "CCImagePickerView"
-  s.version      = "0.0.1"
+  s.version      = "1.0.1"
   s.summary      = "Query the photo album better"
   s.homepage     = "https://github.com/bref-Chan/CCImagePickerView"
 
   s.license      = "MIT"
   s.author       = { "bref" => "1545222515@qq.com" }
-  s.source       = { :git => "https://github.com/bref-Chan/CCImagePickerView.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/bref-Chan/CCImagePickerView.git", :tag => s.version.to_s }
   s.platform     = :ios,"7.0"
   s.source_files = "CCImagePicker/*.{h,m}"
   s.resource 	 = "CCImagePicker/image/*"
