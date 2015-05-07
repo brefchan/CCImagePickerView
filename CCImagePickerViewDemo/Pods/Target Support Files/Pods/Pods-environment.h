@@ -6,12 +6,6 @@
 // project.
 
 
-// JT3DScrollView
-#define COCOAPODS_POD_AVAILABLE_JT3DScrollView
-#define COCOAPODS_VERSION_MAJOR_JT3DScrollView 1
-#define COCOAPODS_VERSION_MINOR_JT3DScrollView 0
-#define COCOAPODS_VERSION_PATCH_JT3DScrollView 2
-
 // pop
 #define COCOAPODS_POD_AVAILABLE_pop
 #define COCOAPODS_VERSION_MAJOR_pop 1
