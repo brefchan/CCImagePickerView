@@ -12,7 +12,7 @@ pod 'CCImagePickerView', '~>1.0.0'
 ```Objective-C
   import <CCImagePickerView/CCImagePickerViewController.h>
 ```
-###in XXViewController
+###in <YOUR>ViewController
 ```Objective-C
     CCImagePickerViewController *con = [[CCImagePickerViewController alloc] init];
     con.delegate = self;
