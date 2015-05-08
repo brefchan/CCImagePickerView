@@ -1,4 +1,6 @@
 # CCImagePickerView
+  if you like it, plz give a star.
+  如果对您有用,请给颗星~谢谢
 
 ###description
   Query the photo album better
