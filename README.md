@@ -1,17 +1,17 @@
 # CCImagePickerView
 
-Query the photo album better
+##Query the photo album better
 
-use Cocoapods
+###use Cocoapods
 ```
 pod'CCImagePickerView', '~>1.0.0'
 ```
 
-then
+###then
 ```Objective-C
   import <CCImagePickerView/CCImagePickerViewController.h>
 ```
-in XXViewController
+###in XXViewController
 ```Objective-C
     CCImagePickerViewController *con = [[CCImagePickerViewController alloc] init];
     con.delegate = self;
