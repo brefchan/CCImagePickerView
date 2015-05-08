@@ -1,6 +1,7 @@
 # CCImagePickerView
 
-##Query the photo album better
+###description
+  Query the photo album better
 
 ###use Cocoapods
 ```
