@@ -17,20 +17,20 @@ in XXViewController
     con.delegate = self;
     [self presentViewController:con animated:YES completion:nil];
   
-#parma mark - delegate
-- (void)didCancelCCImagePickerController
-{
-    [self dismissViewControllerAnimated:YES completion:nil];
-    /*
-     your code
-     */
-}
-
-- (void)didSelectPhotoFromCCImagePickerController:(CCImagePickerViewController *)pikcer result:(NSMutableArray *)cResult
-{
-    [self dismissViewControllerAnimated:YES completion:nil];
-    /*
+#pragma mark - delegate
+    - (void)didCancelCCImagePickerController
+    {
+        [self dismissViewControllerAnimated:YES completion:nil];
+        /*
         your code
-     */
-}
+        */
+    }
+
+    - (void)didSelectPhotoFromCCImagePickerController:(CCImagePickerViewController *)pikcer result:(NSMutableArray *)cResult
+    {
+        [self dismissViewControllerAnimated:YES completion:nil];
+        /*
+        your code
+        */
+    }
 ```
