@@ -5,7 +5,7 @@
 
 ###use Cocoapods
 ```
-pod'CCImagePickerView', '~>1.0.0'
+pod 'CCImagePickerView', '~>1.0.0'
 ```
 
 ###then
