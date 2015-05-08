@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.author       = { "bref" => "1545222515@qq.com" }
   s.source       = { :git => "https://github.com/bref-Chan/CCImagePickerView.git", :tag => s.version.to_s }
   s.platform     = :ios,"7.0"
-  s.source_files = "CCImagePicker/*.{h,m}"
+  s.source_files = "CCImagePicker/*"
   s.resource 	 = "CCImagePicker/image/*"
   s.framework    = "AssetsLibrary"
   s.dependency "pop", "~> 1.0.7"
