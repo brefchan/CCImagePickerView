@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "CCImagePickerView"
-  s.version      = "1.0.1"
+  s.version      = "1.0.3"
   s.summary      = "Query the photo album better"
   s.homepage     = "https://github.com/bref-Chan/CCImagePickerView"
 

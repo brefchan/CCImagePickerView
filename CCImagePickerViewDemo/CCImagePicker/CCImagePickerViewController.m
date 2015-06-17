@@ -179,6 +179,13 @@
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
 {
     CCPhotoCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"CCPhotoCellIndentifier" forIndexPath:indexPath];
+    [cell setSelectMode:NO];
+    for (NSIndexPath *index in [_dic_selected allKeys]) {
+        if (indexPath.row == index.row) {
+            [cell setSelectMode:YES];
+        }
+    }
+
     cell.cellIndexPath = indexPath;
     cell.breviaryPhoto.image = [ASSETHELPER getImageAtIndex:indexPath.row type:AssetPhotoTypeThumbnail];
     return cell;
@@ -249,6 +256,9 @@
 {
     [self showPhotosInGroupIndex:indexPath.row];
     [_groupNamebutton setTitle:[ASSETHELPER getGroupInfo:indexPath.row][@"name"] forState:UIControlStateNormal];
+    [_dic_selected removeAllObjects];
+    [self.selectView updateTipView:_dic_selected.count];
+    [_photoListView reloadData];
     [self hideGroupListView];
 }
 
