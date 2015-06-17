@@ -8,7 +8,7 @@
 
 ###use Cocoapods
 ```
-  pod 'CCImagePickerView', '~>1.0.2'
+  pod 'CCImagePickerView', '~>1.0.3'
 ```
 
 ###then
@@ -21,7 +21,7 @@
     con.delegate = self;
     [self presentViewController:con animated:YES completion:nil];
   
-#pragma mark - delegate
+#pragma mark - delegate git Image of select
     - (void)didCancelCCImagePickerController
     {
         [self dismissViewControllerAnimated:YES completion:nil];
