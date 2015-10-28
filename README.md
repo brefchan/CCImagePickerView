@@ -21,7 +21,7 @@
     con.delegate = self;
     [self presentViewController:con animated:YES completion:nil];
   
-#pragma mark - delegate git Image of select
+#pragma mark - delegate get Image of select
     - (void)didCancelCCImagePickerController
     {
         [self dismissViewControllerAnimated:YES completion:nil];
