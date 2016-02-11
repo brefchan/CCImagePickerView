@@ -6,7 +6,7 @@
 ###description
   Query the photo album better
 
-###use Cocoapods
+###use CocoaPods
 ```
   pod 'CCImagePickerView', '~>1.0.3'
 ```
